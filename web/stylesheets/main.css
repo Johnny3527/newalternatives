@@ -27,14 +27,14 @@
   
   background: #252222;
   vertical-align: inherit;
-  border-radius: 50%;
+  border-radius: 60%;
   overflow: hidden;
   width: 100px;
-  height: 100px;
+  height: 80px;
   margin: auto;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 .jumbotron .lang-logo img {
   vertical-align: middle;
-  max-width: 100%;
+  max-width: 80%;
 }
