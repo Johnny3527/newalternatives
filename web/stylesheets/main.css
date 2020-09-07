@@ -26,7 +26,7 @@
   display: block;
   
   background: #252222;
-  vertical-align: middle;
+  vertical-align: inherit;
   border-radius: 50%;
   overflow: hidden;
   width: 100px;
