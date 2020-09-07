@@ -31,10 +31,10 @@
   overflow: hidden;
   width: 100px;
   height: 100px;
-  margin: 0;
+  margin: auto;
   border: 2px solid white;
 }
 .jumbotron .lang-logo img {
-  vertical-align: middle;
+  margin: 0;
   max-width: 100%;
 }
