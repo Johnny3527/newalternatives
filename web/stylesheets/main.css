@@ -35,5 +35,6 @@
   border: 2px solid white;
 }
 .jumbotron .lang-logo img {
+  vertical-align: middle;
   max-width: 100%;
 }
