@@ -24,6 +24,7 @@
 }
 .jumbotron .lang-logo {
   display: block;
+  vertical-align: middle;
   background: #252222;
   border-radius: 50%;
   overflow: hidden;
