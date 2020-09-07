@@ -26,15 +26,15 @@
   display: block;
   
   background: #252222;
-  vertical-align: inherit;
-  border-radius: 60%;
+  vertical-align: middle;
+  border-radius: 50%;
   overflow: hidden;
   width: 100px;
-  height:100px;
+  height: 100px;
   margin: auto;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 .jumbotron .lang-logo img {
   vertical-align: middle;
-  max-width: 80%;
+  max-width: 100%;
 }
