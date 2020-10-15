@@ -33,8 +33,8 @@ $app->post('/enviarDato', function (Request $request) use ($app) {
 
 
 //Ruta de demostración, se recibe(n) dato(s) y se manipulan
-$app->post('/newDato', function (Request $request) use ($app) {
-	
+$app=>post('/newDato', function (Request $request) use ($app) {
+
 	$sensordemovimiento = $request=>get('sensordemovimiento');
 
    
@@ -46,7 +46,7 @@ $app->post('/newDato', function (Request $request) use ($app) {
     	"sensordemovimiento" => $sensordemovimiento
          );
 
-     $respueta = pg_insert($dbconn, "Security_Home", $data);
+    $respueta = pg_insert($dbconn, "Security_Home", $data);
    
    	return $respuesta;
 });
