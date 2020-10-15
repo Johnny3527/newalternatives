@@ -46,7 +46,7 @@ $app->post('/newDato', function (Request $request) use ($app) {
     	"sensordemovimiento" => $sensordemovimiento
          );
 
-    $respueta = pg_insert($dbconn, "Security_Home", $data);
+    $respueta = pg_insert($dbconn, "security_home", $data);
    
    	return $respuesta;
 });
