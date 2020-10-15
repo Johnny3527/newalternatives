@@ -37,11 +37,11 @@ $app->post('/newDato', function (Request $request) use ($app) {
     $dbconn = pg_pconnect("host=ec2-3-210-178-167.compute-1.amazonaws.com port=5432 dbname=des77jp9cat6qo user=bsntemegqjneun password=f4525a1d46d3754a0e203ca2c9f4f37b181bb300a0022301bbcf1604e71898ee")
 
     if ($dbconn) {
-    	return "conectado"
+    	return "conectado";
     	
     }
     else{
-    	return "no conectado"
+    	return "no conectado";
 
 
 
