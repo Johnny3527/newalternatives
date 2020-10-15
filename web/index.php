@@ -42,6 +42,7 @@ $app->post('/newDato', function (Request $request) use ($app) {
     }
     else{
     	return "No Conectado";
+    }
 
 
 
