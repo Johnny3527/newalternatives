@@ -41,14 +41,11 @@ $app->post('/newDato', function (Request $request) use ($app) {
 
  
     $data = array(
-    	"fecha" => date("d-m-Y H:i");
+    	"fecha"=>date("Y-m-d H:i:s"),
     	"Sensordemovimiento" => $Sensordemovimiento
     );
 
-     $respueta = pg_insert( $dbconn, "Security_home", $data)
-
-
-
+     $respueta = pg_insert( $dbconn, "Security_home", $data);
    
    	return $respuesta;
 });
